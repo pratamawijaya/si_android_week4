@@ -33,6 +33,7 @@
             android:textStyle="bold" />
 
         <ImageView
+            android:id="@+id/btnNotification"
             android:layout_width="@dimen/_24sdp"
             android:layout_height="@dimen/_24sdp"
             android:src="@drawable/baseline_notifications_24" />
@@ -61,7 +62,7 @@
         <Button
             android:id="@+id/btnScanQR"
             android:layout_width="@dimen/_110sdp"
-            android:layout_height="@dimen/_120sdp"
+            android:layout_height="wrap_content"
             android:layout_below="@id/lblMasukRuang"
             android:layout_marginLeft="@dimen/_8sdp"
             android:backgroundTint="#ffffff"
